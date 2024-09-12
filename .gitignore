@@ -9,3 +9,4 @@ env
 # Visual Studio Code
 .vscode/
 db.sqlite3
+venv
