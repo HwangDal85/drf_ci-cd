@@ -45,9 +45,4 @@ jobs:
             echo "SECRET_KEY=\"${{ secrets.SECRET_KEY }}\"" > .env
             echo "DEBUG='${{ secrets.DEBUG }}'" >> .env
 
-<<<<<<< HEAD:drf_ci-cd/.github/workflows/main.yml
-
-=======
-            
->>>>>>> ed40e16c6de1a4befaf422d754ce8a47465b7a01:.github/workflows/main.yml
             sudo systemctl restart site.service
